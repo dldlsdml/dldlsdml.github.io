@@ -1,7 +1,7 @@
 // Place any global data in this file.
 // You can import this data from anywhere in your site by using the `import` keyword.
 
-import {AnalyticsConfig} from "./types/analyticsTypes"
+import { AnalyticsConfig } from "./types/analyticsTypes"
 
 /**
  * title {string} website title
@@ -22,13 +22,13 @@ import {AnalyticsConfig} from "./types/analyticsTypes"
  *    All tags will be displayed in single page "/tags".
  */
 export const site = {
-  title: 'Astro Theme Yi', // required
+  title: 'Seoyun', // required
   favicon: '/favicon.svg', // required
   description: 'Welcome to my independent blog website! ',
-  author: "Astro-Yi", // required
-  avatar: '/avatar.png', // required
+  author: "YI", // required
+  avatar: '/profile01.jpg', // required
   url: 'https://astro-yi-nu.vercel.app', // required
-  motto: 'Actions speak louder than words.',
+  motto: 'BOB',
   recentBlogSize: 5,
   archivePageSize: 25,
   postPageSize: 10,
