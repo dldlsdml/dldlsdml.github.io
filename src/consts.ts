@@ -24,11 +24,11 @@ import { AnalyticsConfig } from "./types/analyticsTypes"
 export const site = {
   title: 'Seoyun', // required
   favicon: '/favicon.svg', // required
-  description: 'Welcome to my independent blog website! ',
+  description: 'A blog for reviews and insights on Computer Science, Games, and Design',
   author: "YI", // required
   avatar: '/profile01.jpg', // required
   url: 'https://astro-yi-nu.vercel.app', // required
-  motto: 'BOB',
+  motto: 'Unaeng',
   recentBlogSize: 5,
   archivePageSize: 25,
   postPageSize: 10,
