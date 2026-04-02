@@ -16,17 +16,17 @@ In this project, I developed a simple 3D game based on instruction of 'Unity Tex
 ### Comment   
 #### Game State Management   
 Used boolean variable(isPlaying) to control the game state   
-* StartGame() --> starts the game   
-* Update() --> runs only when 'isPlaying' is TRUE   
-* EndGame() --> stops the game   
+* ```StartGame()``` --> starts the game   
+* ```Update()``` --> runs only when '```isPlaying```' is TRUE   
+* ```EndGame()``` --> stops the game   
    
 #### Object Spawning   
-Used Instantiate() to spawn elements(bombs&apples) randomly   
-* int dice = Random.Range(1,11)   
-  - Random.range() randomly output numbers in designated data range   
-* spawn interval (span)   
-* falling speed (speed)   
-* bomb ratio (ratio)   
+Used ```Instantiate()``` to spawn elements(bombs&apples) randomly   
+* ```int dice = Random.Range(1,11)```    
+  - ```Random.range()``` randomly output numbers in designated data range   
+* spawn interval ```(span)```   
+* falling speed ```(speed)```   
+* bomb ratio ```(ratio)```   
    
 #### Collision Handling   
 void OnTriggerEnter(Collider other)   
@@ -40,8 +40,8 @@ Used boolean function to control UI - Panel.SetActive(true/false)
 * GamePanel   
 
 Linked UI buttons to functions   
-* StartButton --> StartGame()   
-* ResetButton --> RestartGame()   
+* StartButton --> ```StartGame()```   
+* ResetButton --> ```RestartGame()```   
    
 #### Issues   
 * Buttons not working --> incorrect OnClick setup   
