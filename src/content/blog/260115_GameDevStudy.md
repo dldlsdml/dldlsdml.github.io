@@ -1,7 +1,7 @@
 ---
 date: 2026-01-15
 title: AppleCatch_Unity
-description: .
+description:
 mermaid: true
 mathjax: true
 category: [GameDev]
