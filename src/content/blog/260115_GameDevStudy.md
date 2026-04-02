@@ -12,6 +12,8 @@ In this project, I developed a simple 3D game based on instruction of 'Unity Tex
    
 ### Game Scene 
 <img src="https://github.com/user-attachments/assets/dbbefd59-2268-4dcb-bbd3-85929df4dbbb" width="260" height="300"/>   
+<img src="https://github.com/user-attachments/assets/fa62f3f9-78a3-4541-9a73-aef1d17c689d" width="260" height="300"/>   
+<img src="https://github.com/user-attachments/assets/f61f441e-dfd4-4b6c-94f3-58b8fcdfa2ba" width="260" height="300"/>   
    
 ### Comment   
 #### Game State Management   
