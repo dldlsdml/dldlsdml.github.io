@@ -22,7 +22,7 @@ import { AnalyticsConfig } from "./types/analyticsTypes"
  *    All tags will be displayed in single page "/tags".
  */
 export const site = {
-  title: 'Seoyun', // required
+  title: 'SEOYUN YI', // required
   favicon: '/favicon.svg', // required
   description: 'A blog for reviews and insights on Computer Science, Games, and Design',
   author: "YI", // required
