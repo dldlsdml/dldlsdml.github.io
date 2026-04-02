@@ -13,4 +13,10 @@ Based on 'Unity Textbook, Revised 8th Edition'(유니티 교과서, 개정 8판)
 #### Game Scene 
 <img src="https://github.com/user-attachments/assets/dbbefd59-2268-4dcb-bbd3-85929df4dbbb" width="260" height="300"/>   
    
-#### Comment
+#### Comment   
+- Used given assets: apple, bomb, basket and board   
+- Asset scripts   
+- Identifying collision mechanism   
+- Sorting items by TAG   
+- Generator & Director script   
+- Level Design   
