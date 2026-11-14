@@ -27,7 +27,7 @@ export const site = {
   description: 'A blog for reviews and insights on Computer Science, Games, and Design',
   author: "YI", // required
   avatar: '/profile01.jpg', // required
-  url: 'https://astro-yi-nu.vercel.app', // required
+  url: 'https://dldlsdml.github.io', // required
   motto: 'Unaeng',
   recentBlogSize: 5,
   archivePageSize: 25,
@@ -65,24 +65,14 @@ export const config = {
  */
 export const categories = [
   {
-    name: "Blog",
-    iconClass: "ri-draft-line",
+    name: "Study",
+    iconClass: "ri-book-open-line",
+    href: "/assignments/1",
+  },
+  {
+    name: "Portfolio",
+    iconClass: "ri-briefcase-line",
     href: "/blog/1",
-  },
-  {
-    name: "Feed",
-    iconClass: "ri-lightbulb-flash-line",
-    href: "/feed/1",
-  },
-  // {
-  //   name: "Memos",
-  //   iconClass: "ri-quill-pen-line",
-  //   href: "/memos",
-  // },
-  {
-    name: "Archive",
-    iconClass: "ri-archive-line",
-    href: "/archive/1",
   },
   {
     name: "Message",
