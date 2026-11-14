@@ -1,22 +1,29 @@
 import {defineCollection, z} from 'astro:content';
 
+const postSchema = z.object({
+  title: z.string(),
+  description: z.string().optional().nullable(),
+  date: z.date(),
+  tags: z.array(z.string()).or(z.string()).optional().nullable(),
+  category: z.array(z.string()).or(z.string()).default('uncategorized').nullable(),
+  sticky: z.number().default(0).nullable(),
+  mathjax: z.boolean().default(false).nullable(),
+  mermaid: z.boolean().default(false).nullable(),
+  draft: z.boolean().default(false).nullable(),
+  toc: z.boolean().default(true).nullable(),
+  donate: z.boolean().default(true).nullable(),
+  comment: z.boolean().default(true).nullable(),
+  ogImage: z.string().optional()
+});
+
 const blog = defineCollection({
   type: 'content',
-  schema: z.object({
-    title: z.string(),
-    description: z.string().optional().nullable(),
-    date: z.date(),
-    tags: z.array(z.string()).or(z.string()).optional().nullable(),
-    category: z.array(z.string()).or(z.string()).default('uncategorized').nullable(),
-    sticky: z.number().default(0).nullable(),
-    mathjax: z.boolean().default(false).nullable(),
-    mermaid: z.boolean().default(false).nullable(),
-    draft: z.boolean().default(false).nullable(),
-    toc: z.boolean().default(true).nullable(),
-    donate: z.boolean().default(true).nullable(),
-    comment: z.boolean().default(true).nullable(),
-    ogImage: z.string().optional()
-  }),
+  schema: postSchema,
+});
+
+const assignments = defineCollection({
+  type: 'content',
+  schema: postSchema,
 });
 
 const feed = defineCollection({
@@ -27,4 +34,4 @@ const feed = defineCollection({
   })
 })
 
-export const collections = {blog, feed};
+export const collections = {blog, assignments, feed};
