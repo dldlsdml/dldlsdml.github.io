@@ -60,10 +60,27 @@ const sheet = [
     <p>If you want to talk games, collaborate, or just say hi, leave a note in Message or use the email button above!</p>
     <p class="ko">게임 이야기, 그냥 인사 모두 환영해요. Message에 한 줄 남기거나 위의 이메일 버튼을 눌러주세요!</p>
   </div>
+</section>
 
-  <div class="about-block site-note">
-    <p><strong>Loading complete. Welcome, Player 2.</strong> This site runs on Astro and GitHub Pages, dressed up like an arcade cabinet that learned to code. The glitchy fonts are on purpose. The bugs are not, so please tell me if you spot one.</p>
+<section class="about text-left">
+  <div class="aside-widget">
+    <i class="ri-computer-line menu-icon"/>About Site
+  </div>
+
+  <div class="about-block">
+    <p><strong>Loading complete. Welcome, Player 2.</strong></p>
+    <p>This is my little corner of the internet, built with Astro, hosted on GitHub Pages, and dressed up like an arcade cabinet that learned to code. The glitchy fonts are on purpose. The bugs are not, so please tell me if you spot one.</p>
     <p class="ko">글리치 폰트는 일부러 그런 거예요. 진짜 버그는 일부러가 아니니까, 발견하시면 꼭 알려주세요 (´_ﾉ`)</p>
+  </div>
+
+  <div class="about-block">
+    <p>The map is simple:</p>
+    <ul class="map">
+      <li><strong>Portfolio</strong>: the things I actually built. Interactive fiction, a 3D game, a board game, and a 3D card battler game still in progress.</li>
+      <li><strong>Study</strong>: homework, practice, and notes from books. The messy points where the learning happens.</li>
+      <li><strong>Message</strong>: a guestbook. Say hi!</li>
+      <li><strong>Library</strong>: every post, sorted by category and tag.</li>
+    </ul>
   </div>
 </section>
 
@@ -80,7 +97,7 @@ const sheet = [
 
   .ko {
     opacity: 0.8;
-    font-size: 0.85em;
+    font-size: 0.9em;
   }
 
   .about a {
@@ -105,10 +122,8 @@ const sheet = [
     letter-spacing: 0.05em;
   }
 
-  .site-note {
-    margin-top: 2rem;
-    padding-top: 1rem;
-    border-top: 1px dashed rgb(var(--color-border));
-    font-size: 0.95em;
+  .map li {
+    margin-bottom: 0.4rem;
+    line-height: 1.7;
   }
 </style>
