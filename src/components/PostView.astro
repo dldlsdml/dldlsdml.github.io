@@ -1,12 +1,12 @@
 ---
 import PostViewTitle from '../components/PostViewTitle.astro'
 const {blog} = Astro.props;
-const {data, slug} = blog
+const {data, slug, collection} = blog
 ---
 
 <div class="my-5 first:mt-0">
   <PostViewTitle
-    slug={`/blog/${slug}`}
+    slug={`/${collection}/${slug}`}
     {...data}
   >
   </PostViewTitle>
