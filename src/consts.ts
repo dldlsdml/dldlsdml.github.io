@@ -85,25 +85,11 @@ export const categories = [
     href: "/search",
   },
   {
-    name: "More",
-    iconClass: "ri-more-fill",
-    href: "javascript:void(0);",
-    children: [
-      {
-        name: 'About',
-        iconClass: 'ri-information-line',
-        href: '/about',
-      },
-      {
-        name: 'Friends',
-        iconClass: 'ri-user-5-line',
-        href: '/friends',
-        target: '_self',
-      },
-    ]
-  }
+    name: "Library",
+    iconClass: "ri-book-2-line",
+    href: "/library",
+  },
 ]
-
 /**
  * Personal link address
  */
