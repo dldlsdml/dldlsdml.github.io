@@ -25,7 +25,7 @@ tags: ["Twine", "InteractiveFiction", "NarrativeDesign"]
 
 ## 1. Core Variables & Mechanics / 핵심 변수 및 시스템
 - **State Management / 상태 관리**
-  * 플레이어의 선택에 따라 변화하는 **`$Love`**와 **`$Responsibility`** 두 가지 핵심 변수를 추적하여 내러티브의 흐름과 분기를 제어합니다.
+  * 플레이어의 선택에 따라 변화하는 **`$Love`** 와 **`$Responsibility`** 두 가지 핵심 변수를 추적하여 내러티브의 흐름과 분기를 제어합니다.
   * The story tracks two variables, **`$Love`** and **`$Responsibility`**, which shift depending on player choices and dynamically alter subsequent dialogue, narrative framing, and available pathways.
 
 - **Dynamic Branching / 동적 분기**
