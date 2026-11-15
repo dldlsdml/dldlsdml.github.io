@@ -1,0 +1,28 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Profile from '../components/Profile.astro'
+import HomeAside from '../components/HomeAside.astro'
+import {config} from "../consts";
+---
+
+<html lang={config.lang}>
+<BaseHead/>
+
+<body class="bg-skin-secondary relative">
+<Header/>
+<main class="container p-4 pt-20 text-skin-base pb-32 min-h-full relative" id="app">
+  <div class="mx-auto w-full max-w-md space-y-8 text-center">
+    <Profile></Profile>
+    <HomeAside></HomeAside>
+  </div>
+  <Footer/>
+</main>
+</body>
+<script>
+  document.body.querySelectorAll("a").forEach(item => {
+    item.setAttribute("rel", "nofollow noreferrer");
+  });
+</script>
+</html>
