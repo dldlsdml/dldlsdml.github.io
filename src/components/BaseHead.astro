@@ -13,6 +13,30 @@ let ogImage =  ogimage || new URL(site.avatar, Astro.site?.href).href;
   <!-- Global Metadata -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Rubik+Glitch&family=VT323&display=swap" rel="stylesheet" />
+
+  <style is:global>
+    html body {
+      font-family: 'Nanum Gothic Coding', ui-monospace, monospace !important;
+    }
+    .markdown-body {
+      font-family: 'Nanum Gothic Coding', ui-monospace, monospace !important;
+    }
+    .font-title,
+    header a[href="/"],
+    nav a[href="/"] {
+      font-family: 'Rubik Glitch', 'Nanum Gothic Coding', system-ui, sans-serif !important;
+    }
+    .font-side {
+      font-family: 'VT323', 'Nanum Gothic Coding', monospace;
+      font-size: 1.15em;
+    }
+  </style>
+
   <link rel="icon" type="image/svg+xml" href={site.favicon}>
   <meta name="generator" content={Astro.generator}>
   <!-- Canonical URL -->
