@@ -36,8 +36,8 @@ tags: ["Twine", "InteractiveFiction", "NarrativeDesign"]
 
 ---
 
-## 2. Story Structure & Passage Flow / 스토리 구조 및 패스이지 흐름
-- **Passage Architecture / 패스이지 구조**
+## 2. Story Structure & Passage Flow / 스토리 구조 및 흐름
+- **Passage Architecture / 내용 구조**
   * 컴파일된 트바인(Twine) 스토리 노드의 전체적인 구조적 흐름은 다음과 같습니다.
   * Below is the structural flow of the compiled Twine story nodes:
   1. **`GameStartPage`** $\rightarrow$ Initializes `$Love` and `$Responsibility` to `0`, leading to **`ParisInteraction`**.
@@ -59,8 +59,8 @@ tags: ["Twine", "InteractiveFiction", "NarrativeDesign"]
   * Shifting the narrative perspective to Juliet allows players to actively weigh personal desire against social obligations.
 
 - **Modular State Design / 모듈식 상태 관리**
-  * `$Love` 및 `$Responsibility` 변수를 활용해 복잡한 상태 머신 오버헤드 없이 멀티 엔딩 조건을 깔끔하게 제어했습니다.
-  * Utilizing `$Love` and `$Responsibility` variables cleanly manages narrative states and controls multi-ending conditions without complex state machine overhead.
+  * `$Love` 및 `$Responsibility` 변수를 활용해 복잡한 상태 없이 멀티 엔딩 조건을 깔끔하게 제어했습니다.
+  * Utilizing `$Love` and `$Responsibility` variables cleanly manages narrative states and controls multi-ending conditions.
 
 ---
 
