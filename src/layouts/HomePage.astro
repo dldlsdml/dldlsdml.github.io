@@ -3,7 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import HomeProfile from '../components/HomeProfile.astro'
-import HomeAside from '../components/HomeAside.astro'
+import HomeAbout from '../components/HomeAbout.astro'
 import {config} from "../consts";
 ---
 
@@ -15,7 +15,7 @@ import {config} from "../consts";
 <main class="container p-4 pt-24 text-skin-base pb-32 min-h-full relative" id="app">
   <div class="mx-auto w-full max-w-2xl space-y-12 text-center">
     <HomeProfile></HomeProfile>
-    <div class="font-side"><HomeAside></HomeAside></div>
+    <HomeAbout></HomeAbout>
   </div>
   <Footer/>
 </main>
