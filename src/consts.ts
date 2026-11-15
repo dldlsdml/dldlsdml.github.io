@@ -26,7 +26,7 @@ export const site = {
   favicon: '/favicon.svg', // required
   description: 'A blog for reviews and insights on Computer Science, Games, and Design',
   author: "YI", // required
-  avatar: '/profile01.jpg', // required
+  avatar: '/seoyun_cat.png', // required
   url: 'https://dldlsdml.github.io', // required
   motto: 'Unaeng',
   recentBlogSize: 5,
