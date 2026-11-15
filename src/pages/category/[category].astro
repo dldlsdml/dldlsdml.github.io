@@ -5,10 +5,10 @@ import getUniqueCategory from "src/utils/getUniqeCategory";
 import SearchTitle from "src/components/SearchTitle.astro";
 import {formatDate} from "../../utils/formatDate";
 import {sortPostsByDate} from "src/utils/sortPostsByDate";
-import {getCollectionByName} from "../../utils/getCollectionByName";
-import {formatDate} from "../../utils/formatDate";
+import {getAllPosts} from "../../utils/getAllPosts";
+
 export async function getStaticPaths() {
-  const posts = await getCollectionByName("blog");
+  const posts = await getAllPosts();
   const category = getUniqueCategory(posts);
   return category.map((category) => {
     return {
@@ -22,7 +22,7 @@ export async function getStaticPaths() {
   });
 }
 const {category} = Astro.props;
-let posts = await getCollectionByName("blog");
+const posts = await getAllPosts();
 const categoryPosts = getPostsByCategory(posts, category);
 const resultPosts = sortPostsByDate(categoryPosts);
 ---
@@ -35,10 +35,10 @@ const resultPosts = sortPostsByDate(categoryPosts);
         <li style="list-style-type: disc;" class="ml-4 my-2">
           <a href={'/' + post.collection + '/' + post.slug}>
             <span class="mr-4">
-        {formatDate(post.data.date)}
+              {formatDate(post.data.date)}
             </span>
             <span class="hover:text-skin-active">
-            {post.data.title}
+              {post.data.title}
             </span>
           </a>
         </li>
