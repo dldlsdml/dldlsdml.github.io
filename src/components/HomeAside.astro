@@ -12,37 +12,38 @@ const categoryCount = getCountByCategory(blogs);
 <div>
   {
     Object.keys(categoryCount).length > 0 && (
-      <div class="aside-widget">
+      <div class="aside-widget justify-center">
         <i class="ri-folder-3-line menu-icon"/>{t('sidebar.categories')}
       </div>
     )
   }
-  {
-    Object.keys(categoryCount).map((category) => (
-      <a
-        class="my-1 truncate block hover:text-skin-active"
-        title={category + " (" + categoryCount[category] + ")"}
-        href={"/category/" + category}
-      >
-        {(category === 'uncategorized' ? t('sidebar.uncategorized') : category) + " (" + categoryCount[category] + ")"}
-      </a>
-    ))
-  }
+  <div class="flex flex-wrap justify-center">
+    {
+      Object.keys(categoryCount).map((category) => (
+        <a
+          class="inline-block truncate m-1 border px-2 py-1 text-sm rounded hover:text-skin-active"
+          title={category + " (" + categoryCount[category] + ")"}
+          href={"/category/" + category}
+        >
+          {(category === 'uncategorized' ? t('sidebar.uncategorized') : category) + " (" + categoryCount[category] + ")"}
+        </a>
+      ))
+    }
+  </div>
 </div>
 
-<div>
+<div class="mt-10">
   {
     tagArr.length > 0 && (
-      <div class="aside-widget">
-        <i class="ri-hashtag menu-icon"/>
-        {t('sidebar.tags')}
+      <div class="aside-widget justify-center">
+        <i class="ri-hashtag menu-icon"/>{t('sidebar.tags')}
       </div>
     )
   }
   <div class="flex flex-wrap justify-center">
     {
       tagArr.map((tag) =>
-        <a class="inline-block truncate m-1 border p-1 text-sm rounded hover:text-skin-active" title={tag} href={"/tags/" + tag}>{tag}</a>
+        <a class="inline-block truncate m-1 border px-2 py-1 text-sm rounded hover:text-skin-active" title={tag} href={"/tags/" + tag}>{tag}</a>
       )
     }
   </div>
