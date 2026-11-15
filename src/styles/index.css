@@ -276,6 +276,7 @@ html[data-theme="dark"] a:hover {
 }
 
 html[data-theme="dark"] .avatar {
+  background-color: #D6D3CC;
   box-shadow: 0 0 14px rgba(255, 79, 163, 0.55);
 }
 
