@@ -11,10 +11,6 @@
   src: url('./JetBrainsMono-Regular.ttf');
 }
 
-/**
-覆写tailwindcss 默认样式
- */
-
 html {
   height: 100%;
   scroll-padding-top: 72px;
@@ -36,25 +32,25 @@ menu {
 
   :root,
   html[data-theme="light"] {
-    --color-fill: 241, 241, 241;
-    --color-fill-secondary: 251, 251, 251;
-    --color-card: 241, 241, 241;
-    --color-text: 80, 73, 69;
-    --color-text-active: 181, 118, 20;
-    --color-border: 104, 157, 106;
-    --color-border-active: 14, 192, 124;
-    --color-modal: 52, 58, 64;
+    --color-fill: 226, 224, 218;
+    --color-fill-secondary: 238, 236, 231;
+    --color-card: 214, 211, 204;
+    --color-text: 24, 24, 27;
+    --color-text-active: 196, 30, 112;
+    --color-border: 150, 147, 140;
+    --color-border-active: 196, 30, 112;
+    --color-modal: 24, 24, 27;
   }
 
   html[data-theme="dark"] {
-    --color-fill: 40, 40, 40;
-    --color-fill-secondary: 52, 58, 64;
-    --color-card: 40, 42, 54;
-    --color-text: 249, 244, 227;
-    --color-text-active: 250, 189, 47;
-    --color-border: 214, 93, 14;
-    --color-border-active: 7, 102, 120;
-    --color-modal: 251, 251, 251;
+    --color-fill: 30, 30, 34;
+    --color-fill-secondary: 18, 18, 20;
+    --color-card: 40, 40, 45;
+    --color-text: 236, 234, 228;
+    --color-text-active: 255, 79, 163;
+    --color-border: 110, 107, 102;
+    --color-border-active: 255, 79, 163;
+    --color-modal: 236, 234, 228;
   }
 
   #sun-icon,
@@ -205,11 +201,11 @@ menu {
 ::-webkit-scrollbar {
   width: 10px;
   height: 16px;
-  background-color: #edede9;
+  background-color: rgb(var(--color-fill));
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #c0c4cc;
+  background-color: rgb(var(--color-border));
   border-radius: 4px;
 }
 
@@ -273,4 +269,16 @@ menu {
 
 .MathJax svg {
   display: inline;
+}
+
+html[data-theme="dark"] a:hover {
+  text-shadow: 0 0 8px rgba(255, 79, 163, 0.65);
+}
+
+html[data-theme="dark"] .avatar {
+  box-shadow: 0 0 14px rgba(255, 79, 163, 0.55);
+}
+
+html[data-theme="dark"] .aside-widget {
+  border-bottom-color: rgba(255, 79, 163, 0.5);
 }
