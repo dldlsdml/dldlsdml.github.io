@@ -14,7 +14,7 @@ tags: ["BoardGame", "Tabletop", "NarrativeDesign", "SocialImpact"]
   * 협력 및 경쟁형 소셜 데덕션 / 테이블탑 보드게임 (Physical Board Game)
   * Social Deduction / Tabletop Board Game
 
-- **Team Size & Environment / 개발 인원 및 환경**
+- **Team Size & Environment / 개발 환경**
   * 팀원-알렉시아(Alexia)와 본인-서윤(Seoyun)의 팀 프로젝트로 진행되었으며, 비주얼 탐색 요소와 규칙 시스템을 설계했습니다.
   * Team project featuring Alexia and Seoyun, utilizing visual asset organization and iterative rules design.
 
@@ -44,6 +44,7 @@ tags: ["BoardGame", "Tabletop", "NarrativeDesign", "SocialImpact"]
   3. **`Arrest & Scoring`** → Cops attempt an arrest; correct guesses earn points, while incorrect guesses trigger a penalty die.
   4. **`Corruption & Mission Scoring`** → Players wager points to accuse peers of fulfilling secret missions rather than catching the real culprit.
   5. **`Round Rotation`** → The tiered play space rings rotate, roles shift clockwise, and the cycle continues until a player reaches 30 points.
+<img width="2252" height="2523" alt="20260603_112251" src="https://github.com/user-attachments/assets/a3f4e352-f384-46d1-bc2e-4d0024283ae1" />
 
 ---
 
@@ -55,6 +56,7 @@ tags: ["BoardGame", "Tabletop", "NarrativeDesign", "SocialImpact"]
 - **Mitigating Ambiguity & Enhancing Tension / 모호성 제거 및 긴장감 유지**
   * 플레이테스트 피드백을 반영해 색상 팔레트와 외형 식별 부록(Appendix)을 제작하여 시각적 주관성을 줄이고, 미션 카드와 회전식 보드를 도입해 반복적인 단조로움을 해결했습니다.
   * Resolving visual ambiguity through standardized color palettes and feature appendices, while introducing rotating tiered boards and mission cards to sustain tension and replayability.
+<img width="5712" height="4284" alt="1780473904368" src="https://github.com/user-attachments/assets/cadb9b89-ebde-4546-a43d-c6c4fadc34d5" />
 
 ---
 
