@@ -21,7 +21,7 @@ const blog = defineCollection({
   schema: postSchema,
 });
 
-const assignments = defineCollection({
+const portfolio = defineCollection({
   type: 'content',
   schema: postSchema,
 });
@@ -34,4 +34,4 @@ const feed = defineCollection({
   })
 })
 
-export const collections = {blog, assignments, feed};
+export const collections = {blog, portfolio, feed};
