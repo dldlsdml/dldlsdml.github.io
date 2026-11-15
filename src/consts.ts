@@ -67,12 +67,12 @@ export const categories = [
   {
     name: "Study",
     iconClass: "ri-book-open-line",
-    href: "/assignments/1",
+    href: "/blog/1",
   },
   {
     name: "Portfolio",
     iconClass: "ri-briefcase-line",
-    href: "/blog/1",
+    href: "/portfolio/1",
   },
   {
     name: "Message",
