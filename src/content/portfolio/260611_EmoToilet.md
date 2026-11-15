@@ -2,7 +2,7 @@
 date: 2026-06-11
 title: "[Project] Emo Toilet - GAMES3010 3D Puzzle Game"
 categories: [GameDev]
-tags: ["Unreal Engine5, Diversion"]
+tags: ["Unreal Engine5", "Diversion"]
 ---
 ## Project Overview: Emo Toilet
 
