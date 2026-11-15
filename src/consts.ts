@@ -109,32 +109,26 @@ export const categories = [
  */
 export const infoLinks = [
   {
-    icon: 'ri-telegram-fill',
-    name: 'telegram',
-    outlink: '',
+    icon: 'ri-linkedin-box-fill',
+    name: 'LinkedIn',
+    outlink: 'https://www.linkedin.com/in/seoyunyi/',
   },
   {
-    icon: 'ri-twitter-fill',
-    name: 'twitter',
-    outlink: '',
+    icon: 'ri-mail-line',
+    name: 'Email',
+    outlink: 'mailto:iseoyun750@gmail.com',
   },
   {
-    icon: 'ri-instagram-fill',
-    name: 'instagram',
-    outlink: '',
+    icon: 'ri-gamepad-line',
+    name: 'itch.io',
+    outlink: 'https://unaeng.itch.io/',
   },
   {
-    icon: 'ri-github-fill',
-    name: 'github',
-    outlink: 'https://github.com/cirry/astro-yi',
+    icon: 'ri-file-text-line',
+    name: 'Resume',
+    outlink: '/SeoyunYi_Resume2026.pdf',
   },
-  {
-    icon: 'ri-rss-fill',
-    name: 'rss',
-    outlink: '',
-  }
 ]
-
 /**
  * donate
  * enable {boolean}
