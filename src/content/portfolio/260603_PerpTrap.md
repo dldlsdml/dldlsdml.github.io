@@ -26,7 +26,7 @@ tags: ["BoardGame", "Tabletop", "NarrativeDesign", "SocialImpact"]
 
 ## 1. Core Variables & Mechanics / 핵심 변수 및 시스템
 - **Asymmetric Roles / 비대칭 역할 분담**
-  * 범인의 정답을 알고 있는 **Dispatcher(지시자)**와 예/아니오 질문을 통해 용의자를 좁혀나가는 **Cops(경찰)** 간의 비대칭적 정보 구조를 활용합니다.
+  * 범인의 정답을 알고 있는 **Dispatcher(지시자)** 와 예/아니오 질문을 통해 용의자를 좁혀나가는 **Cops(경찰)** 간의 비대칭적 정보 구조를 활용합니다.
   * The game features distinct roles: a Dispatcher who knows the exact identity of the culprit, and Cops who ask yes/no questions to identify and arrest them.
 
 - **Mission System & Corruption / 미션 카드 및 부패 시스템**
@@ -61,3 +61,5 @@ tags: ["BoardGame", "Tabletop", "NarrativeDesign", "SocialImpact"]
 ## Links / 관련 링크
 - **Game Design Document / GDD 문서 자료**
   * [Perp Trap Game Design Document (PDF)](/GameBuild3_PerpTrap.pdf)
+- **Game Appendix / 게임부록**
+  * [Perp Trap Game Appendix (PDF)](/Games2100_PerpTrap.pdf)
